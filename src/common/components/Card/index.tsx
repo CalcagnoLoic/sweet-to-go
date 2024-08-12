@@ -26,7 +26,7 @@ const Component = ({ dessertProps }: CardProps) => {
       />
       <Paragraph
         kind="p"
-        content={`${price}`}
+        content={`$${price}`}
         css="mt-2 font-semibold text-tiaMaria"
       />
 
