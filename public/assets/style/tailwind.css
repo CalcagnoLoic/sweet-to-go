@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: redHatText;
-  src: url("../font/RedHatText-Regular.ttf");
+  src: url("../assets/font/RedHatText-Regular.ttf");
 }
 
 @layer base {
