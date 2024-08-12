@@ -1,6 +1,6 @@
 import { Dessert } from "@definition";
 
-export const desserts: Dessert[] = [
+export const dessertsList: Dessert[] = [
   {
     dessertID: "yeDcYu&!qT3B",
     dessertCategory: "Waffle",
@@ -55,7 +55,7 @@ export const desserts: Dessert[] = [
     dessertCategory: "Brownie",
     dessertName: "Salted Caramel Brownie",
     dessertPrice: 5.5,
-    dessertIllustration: "/assets/img/brownies.webp",
+    dessertIllustration: "/assets/img/brownie.webp",
   },
   {
     dessertID: "k@In%#C.VDSZ",
