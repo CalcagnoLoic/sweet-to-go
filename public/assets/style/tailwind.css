@@ -9,6 +9,6 @@
 
 @layer base {
   body {
-    @apply font-redHatText;
+    @apply font-redHatText bg-softPeach;
   }
 }
