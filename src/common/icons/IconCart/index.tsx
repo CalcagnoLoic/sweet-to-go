@@ -1,6 +1,6 @@
 import { KeyProps } from "../../definition";
 
-const Icons = ({ kind }: KeyProps) => {
+const Icons = ({ kind, css }: KeyProps) => {
   switch (kind) {
     case "add":
       return (
@@ -31,6 +31,7 @@ const Icons = ({ kind }: KeyProps) => {
           height="10"
           fill="none"
           viewBox="0 0 10 10"
+          className="self-center cursor-pointer"
         >
           <path
             fill="#CAAFA7"
@@ -47,6 +48,7 @@ const Icons = ({ kind }: KeyProps) => {
           height="128"
           fill="none"
           viewBox="0 0 128 128"
+          className={css}
         >
           <path
             fill="#260F08"

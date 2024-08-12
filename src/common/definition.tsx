@@ -15,6 +15,7 @@ type KeyPropsQuantity = "increment" | "decrement";
 
 export type KeyProps = {
   kind: KeyPropsCart | KeyPropsQuantity;
+  css?: string;
 };
 
 export type CardProps = {
@@ -43,3 +44,10 @@ export interface Paragraph extends Text {
 export interface Link extends Text {
   path: string;
 }
+
+export type Orders = {
+  title: string;
+  quantity: number;
+  total?: number | string;
+  price: string;
+};
