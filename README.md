@@ -1,5 +1,7 @@
 # Sweet to go 🍦
 
+Lien Figma : https://www.figma.com/design/lt1WV8RAE38qCtYHQbEUIN/ecommerce-redux?node-id=0-1&t=1jCRFYWw7wDQs935-0 
+
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=react,redux,ts,tailwind" />
