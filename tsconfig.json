@@ -7,5 +7,15 @@
     {
       "path": "./tsconfig.node.json"
     }
-  ]
+  ],
+  "path": {
+    "@components/*": ["./src/common/components/*"],
+    "@data/*": ["./src/common/data/*"],
+    "@hooks/*": ["./src/common/hooks/*"],
+    "@icons/*": ["./src/common/icons/*"],
+    "@layouts/*": ["./src/common/layouts/*"],
+    "@pages/*": ["./src/common/pages/*"],
+    "@typographies/*": ["./src/common/typographies/*"],
+    "@definition": ["./src/common/definition.tsx"]
+  }
 }

@@ -13,6 +13,7 @@ export default {
         beaver: "#87635A",
         graphite: "#260F08",
       },
+      fontFamily: { redHatText: ["redHatText"] },
     },
   },
   plugins: [],
