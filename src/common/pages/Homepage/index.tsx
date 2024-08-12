@@ -3,6 +3,7 @@ import { Dessert } from "../../definition";
 import GridLayout from "../../layouts/GridLayout";
 import Card from "../../components/Card";
 import Heading from "../../typographies/Heading";
+import Cart from "../../../features/Cart";
 
 const Page = () => {
   return (
@@ -13,15 +14,15 @@ const Page = () => {
         css="text-5xl font-bold text-graphite"
       />
 
-      <div className=" flex flex-col gap-16 lg:flex-row">
+      <div className="flex flex-col gap-20 lg:gap-32 lg:flex-row">
         <GridLayout>
           {dessertsList.map((dessert: Dessert) => (
             <Card dessertProps={dessert} />
           ))}
         </GridLayout>
 
-        <div className="bg-vistaWhite">
-          <p>cart ici</p>
+        <div className="rounded-3xl bg-vistaWhite p-6 h-fit">
+          <Cart />
         </div>
       </div>
     </>
