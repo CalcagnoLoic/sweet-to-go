@@ -1,27 +1,39 @@
 import { CardProps } from "../../definition";
 import IconCart from "../../icons/IconCart";
+import Paragraph from "../../typographies/Paragraph";
+import Image from "../Image";
 
 const Component = ({ dessertProps }: CardProps) => {
   return (
     <div key={dessertProps.dessertID} className="relative">
-      <img
+      <Image
         src={dessertProps.dessertIllustration}
-        alt={dessertProps.dessertName}
-        className="h-[300px] w-[300px] rounded-2xl lg:h-[250px] lg:w-[250px]"
-        title={dessertProps.dessertName}
+        content={dessertProps.dessertName}
       />
 
-      <p className="mt-10 text-pharlap">{dessertProps.dessertCategory}</p>
-      <p className="mt-1 font-semibold text-graphite">
-        {dessertProps.dessertName}
-      </p>
-      <p className="mt-2 font-semibold text-tiaMaria">
-        ${dessertProps.dessertPrice}
-      </p>
+      <Paragraph
+        kind="p"
+        content={dessertProps.dessertCategory}
+        css="mt-10 text-pharlap"
+      />
+      <Paragraph
+        kind="p"
+        content={dessertProps.dessertName}
+        css="mt-1 font-semibold text-graphite"
+      />
+      <Paragraph
+        kind="p"
+        content={`${dessertProps.dessertPrice}`}
+        css="mt-2 font-semibold text-tiaMaria"
+      />
 
-      <div className="absolute left-1/2 top-[270px] flex w-3/4 -translate-x-1/2 cursor-pointer justify-center gap-2 rounded-full border-[1px] border-graphite bg-vistaWhite px-5 py-4 hover:border-tiaMaria lg:top-[220px]">
+      <div className="add_cart border-graphite bg-vistaWhite hover:border-tiaMaria">
         <IconCart kind="add" />
-        <span className="font-semibold">Add to cart</span>
+        <Paragraph
+          kind="span"
+          content="Add to Cart"
+          css="font-semibold text-graphite hover:text-tiaMaria"
+        />
       </div>
     </div>
   );

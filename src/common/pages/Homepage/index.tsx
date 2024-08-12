@@ -2,11 +2,17 @@ import { dessertsList } from "@data/data";
 import { Dessert } from "../../definition";
 import GridLayout from "../../layouts/GridLayout";
 import Card from "../../components/Card";
+import Heading from "../../typographies/Heading";
 
 const Page = () => {
   return (
-    <div className="mx-8 my-10 md:mx-16 md:my-20 lg:mx-20 lg:my-20">
-      <h1 className="text-5xl font-bold text-graphite">Desserts</h1>
+    <>
+      <Heading
+        kind="h1"
+        content="Desserts"
+        css="text-5xl font-bold text-graphite"
+      />
+
       <div className="lg: flex flex-col gap-16 lg:flex-row">
         <GridLayout>
           {dessertsList.map((dessert: Dessert) => (
@@ -18,7 +24,7 @@ const Page = () => {
           <p>cart ici</p>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
