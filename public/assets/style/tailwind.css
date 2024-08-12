@@ -5,10 +5,17 @@
 @font-face {
   font-family: redHatText;
   src: url("../assets/font/RedHatText-Regular.ttf");
+  font-display: swap;
 }
 
 @layer base {
   body {
     @apply font-redHatText bg-softPeach;
+  }
+}
+
+@layer components {
+  .add_cart {
+    @apply absolute left-1/2 top-[270px] flex w-3/4 -translate-x-1/2 cursor-pointer justify-center gap-2 rounded-full border-[1px] px-5 py-4 lg:top-[220px];
   }
 }
