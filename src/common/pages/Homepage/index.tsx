@@ -1,4 +1,4 @@
-import { dessertsList } from "@data/data";
+import { dessertsList } from "../../data/data";
 import { Dessert } from "../../definition";
 import GridLayout from "../../layouts/GridLayout";
 import Card from "../../components/Card";
@@ -13,7 +13,7 @@ const Page = () => {
         css="text-5xl font-bold text-graphite"
       />
 
-      <div className="lg: flex flex-col gap-16 lg:flex-row">
+      <div className=" flex flex-col gap-16 lg:flex-row">
         <GridLayout>
           {dessertsList.map((dessert: Dessert) => (
             <Card dessertProps={dessert} />

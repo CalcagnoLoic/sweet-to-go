@@ -11,7 +11,7 @@ const Component = () => (
       kind="p"
       content={
         <>
-          Coding with love by{" "}
+          Coding with love by
           <Link
             path="https://github.com/CalcagnoLoic"
             content=" @CalcagnoLoic "

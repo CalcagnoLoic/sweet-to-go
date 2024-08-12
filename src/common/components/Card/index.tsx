@@ -2,8 +2,11 @@ import { CardProps } from "../../definition";
 import IconCart from "../../icons/IconCart";
 import Paragraph from "../../typographies/Paragraph";
 import Image from "../Image";
+import { PriceFormat } from "../../utils";
 
 const Component = ({ dessertProps }: CardProps) => {
+  const price = PriceFormat(dessertProps.dessertPrice, true);
+
   return (
     <div key={dessertProps.dessertID} className="relative">
       <Image
@@ -23,7 +26,7 @@ const Component = ({ dessertProps }: CardProps) => {
       />
       <Paragraph
         kind="p"
-        content={`${dessertProps.dessertPrice}`}
+        content={`${price}`}
         css="mt-2 font-semibold text-tiaMaria"
       />
 

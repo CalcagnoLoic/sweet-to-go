@@ -1,4 +1,4 @@
-import Homepage from "@pages/Homepage";
+import Homepage from "../common/pages/Homepage";
 /* import { Provider } from "react-redux";
 import { store } from "./store"; */
 import Footer from "../common/components/Footer";

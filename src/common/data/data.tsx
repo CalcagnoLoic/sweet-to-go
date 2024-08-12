@@ -1,4 +1,4 @@
-import { Dessert } from "@definition";
+import { Dessert } from "../definition";
 
 export const dessertsList: Dessert[] = [
   {
