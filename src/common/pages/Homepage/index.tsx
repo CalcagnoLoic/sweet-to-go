@@ -1,9 +1,10 @@
-import { dessertsList } from "../../data/data";
 import { Dessert } from "../../definition";
-import GridLayout from "../../layouts/GridLayout";
+import { dessertsList } from "../../data/data";
+
 import Card from "../../components/Card";
-import Heading from "../../typographies/Heading";
 import Cart from "../../../features/Cart";
+import GridLayout from "../../layouts/GridLayout";
+import Heading from "../../typographies/Heading";
 
 const Page = () => {
   return (

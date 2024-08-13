@@ -1,5 +1,5 @@
-import Paragraph from "../../typographies/Paragraph";
 import Link from "../Link";
+import Paragraph from "../../typographies/Paragraph";
 
 const Component = () => (
   <footer className="mt-20 text-center font-semibold text-graphite">

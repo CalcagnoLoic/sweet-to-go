@@ -1,10 +1,11 @@
 import { useState } from "react";
-import Heading from "../../common/typographies/Heading";
+
 import EmptyCart from "./EmptyCart";
+import Heading from "../../common/typographies/Heading";
 import FilledCart from "./FilledCart";
 
-const Component = () => {
-  const [fakeQuantity] = useState<number>(7); //passer de 0 à 7 pour voir les deux types de design: empty vs filled
+const Feature = () => {
+  const [fakeQuantity] = useState<number>(0); //passer de 0 à 7 pour voir les deux types de design: empty vs filled
 
   return (
     <>
@@ -19,4 +20,4 @@ const Component = () => {
   );
 };
 
-export default Component;
+export default Feature;

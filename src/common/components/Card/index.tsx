@@ -1,8 +1,9 @@
 import { CardProps } from "../../definition";
-import IconCart from "../../icons/IconCart";
-import Paragraph from "../../typographies/Paragraph";
-import Image from "../Image";
 import { PriceFormat } from "../../utils";
+
+import IconCart from "../../icons/IconCart";
+import Image from "../Image";
+import Paragraph from "../../typographies/Paragraph";
 
 const Component = ({ dessertProps }: CardProps) => {
   const price = PriceFormat(dessertProps.dessertPrice, true);
