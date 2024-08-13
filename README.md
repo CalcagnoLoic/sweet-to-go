@@ -11,12 +11,12 @@ Lien Figma : https://www.figma.com/design/lt1WV8RAE38qCtYHQbEUIN/ecommerce-redux
 TODO: make an introduction for the project
 
 <p align="center">
-    <img src="public/img/readme.webp" width="60%" alt="Sweet To Go">
+    <img src="public/assets/img/readme.webp" width="60%" alt="Sweet To Go">
 </p>
 
 | Adding items to Cart      | Confirmation Order                |
 | ------------------------- | --------------------------------- |
-| ![](public/img/cart.webp) | ![](public/img/confirmation.webp) |
+| ![](public/assets/img/cart.webp) | ![](public/assets/img/confirmation.webp) |
 
 ## User stories
 
