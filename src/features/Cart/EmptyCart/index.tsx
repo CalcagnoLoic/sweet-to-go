@@ -1,6 +1,6 @@
 import IconCart from "../../../common/icons/IconCart";
 
-const Component = () => (
+const Feature = () => (
   <>
     <IconCart kind="empty" css="block mx-auto my-16" />
     <span className="block text-center">
@@ -9,4 +9,4 @@ const Component = () => (
   </>
 );
 
-export default Component;
+export default Feature;

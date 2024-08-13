@@ -29,7 +29,7 @@ export type ImageProps = {
 };
 
 interface Text {
-  content: string | React.ReactNode;
+  content: string | React.ReactNode | number;
   css?: string;
 }
 
@@ -45,9 +45,19 @@ export interface Link extends Text {
   path: string;
 }
 
-export type Orders = {
+export interface TotalPrice {
+  total?: number | string;
+}
+
+export interface Orders extends TotalPrice {
   title: string;
   quantity: number;
-  total?: number | string;
   price: string;
+  confirm?: boolean;
+  src?: string;
+}
+
+export type ActionButton = {
+  onclick: () => void;
+  content?: string;
 };

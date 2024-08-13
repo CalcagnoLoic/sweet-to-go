@@ -1,8 +1,21 @@
+import { createPortal } from "react-dom";
+import { useState } from "react";
+
+import ConfirmationModal from "../../ConfirmationModal";
 import IconCart from "../../../common/icons/IconCart";
 import Order from "../../Order";
+import OrderButton from "../../Order/OrderButton";
 import Paragraph from "../../../common/typographies/Paragraph";
+import Total from "../../Total";
 
-const Component = () => {
+const Feature = () => {
+  const [isOpen, setIsOpen] = useState<boolean>(false);
+
+  const handleModal = () => {
+    setIsOpen((prevState) => !prevState);
+    scrollTo({ top: 1, behavior: "smooth" });
+  };
+
   return (
     <div className="mt-10">
       <Order title="Classic Tiramisu" quantity={1} price="5.50" />
@@ -19,18 +32,7 @@ const Component = () => {
         total="13.00"
       />
 
-      <div className="mt-8 flex justify-between">
-        <Paragraph
-          kind="span"
-          content="Order Total"
-          css="self-end text-graphite"
-        />
-        <Paragraph
-          kind="span"
-          content="$46.50"
-          css="text-3xl font-bold text-beaver"
-        />
-      </div>
+      <Total total={46.5} />
 
       <div className="mt-7 flex w-full justify-center rounded-2xl bg-softPeach px-8 py-4">
         <IconCart kind="carbon_neutral" />
@@ -45,11 +47,15 @@ const Component = () => {
         />
       </div>
 
-      <button className="mt-4 w-full justify-center rounded-2xl bg-tiaMaria px-8 py-4 text-vistaWhite">
-        Confirm your order
-      </button>
+      <OrderButton onclick={handleModal} content="Confirm your Order" />
+
+      {isOpen &&
+        createPortal(
+          <ConfirmationModal onclick={handleModal} />,
+          document.body,
+        )}
     </div>
   );
 };
 
-export default Component;
+export default Feature;
