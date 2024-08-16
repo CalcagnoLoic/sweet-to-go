@@ -2,7 +2,5 @@ export const PriceFormat = (
   price: number,
   displayPrice: boolean,
 ): string | number => {
-  const roundedPrice = Math.round(price * 100) / 100;
-
-  return displayPrice ? roundedPrice.toFixed(2) : roundedPrice;
+  return displayPrice ? (Math.round(price * 100) / 100).toFixed(2) : price;
 };

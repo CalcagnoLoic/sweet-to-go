@@ -1,21 +1,21 @@
 # Sweet to go 🍦
 
-Lien Figma : https://www.figma.com/design/lt1WV8RAE38qCtYHQbEUIN/ecommerce-redux?node-id=0-1&t=1jCRFYWw7wDQs935-0 
+[Lien Figma] (https://www.figma.com/design/lt1WV8RAE38qCtYHQbEUIN/ecommerce-redux?node-id=0-1&t=1jCRFYWw7wDQs935-0)
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,redux,ts,tailwind" />
+    <img src="https://skillicons.dev/icons?i=react,redux,ts,tailwind,figma,vite,vscode" />
   </a>
 </p>
 
-TODO: make an introduction for the project
+Welcome to **Dessert Shop**, an elegant and user-friendly web application designed to showcase and sell delicious desserts. Whether you're craving a classic tiramisu, a vibrant macaron mix, or a rich red velvet cake, our store has something to satisfy your sweet tooth.
 
 <p align="center">
     <img src="public/assets/img/readme.webp" width="60%" alt="Sweet To Go">
 </p>
 
-| Adding items to Cart      | Confirmation Order                |
-| ------------------------- | --------------------------------- |
+| Adding items to Cart             | Confirmation Order                       |
+| -------------------------------- | ---------------------------------------- |
 | ![](public/assets/img/cart.webp) | ![](public/assets/img/confirmation.webp) |
 
 ## User stories
@@ -25,7 +25,7 @@ TODO: make an introduction for the project
 - [ ] See an order confirmation modal when they click "Confirm Order"
 - [ ] Reset their selections when they click "Start New Order"
 - [x] View the optimal layout for the interface depending on their device's screen size
-- [ ] See hover and focus states for all interactive elements on the page
+- [x] See hover and focus states for all interactive elements on the page
 
 ## Built with
 
@@ -41,10 +41,10 @@ TODO: make an introduction for the project
 
 ### Jodie Addis
 
-- Personnal website - [Jodie Addis Portfolio]()
-- Linkedin - [Jodie Addis LinkedIn]()
+- [Personnal website]()
+- [Linkedin]()
 
 ### Loïc Calcagno
 
-- Personnal website - [Loïc Calcagno Portfolio](https://calcagno-loic.netlify.app/)
-- Linkedin - [Loïc Calcagno LinkedIn](https://www.linkedin.com/in/loic-calcagno/)
+- [Personnal website](https://calcagno-loic.netlify.app/)
+- [Linkedin](https://www.linkedin.com/in/loic-calcagno/)

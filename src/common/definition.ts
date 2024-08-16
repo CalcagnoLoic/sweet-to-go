@@ -26,6 +26,8 @@ export type ImageProps = {
   isThumbnail?: boolean;
   src: string;
   content: string;
+  css?: string;
+  action?: () => void;
 };
 
 interface Text {
@@ -60,4 +62,8 @@ export interface Orders extends TotalPrice {
 export type ActionButton = {
   onclick: () => void;
   content?: string;
+};
+
+export type ActionCard = {
+  state: boolean;
 };
