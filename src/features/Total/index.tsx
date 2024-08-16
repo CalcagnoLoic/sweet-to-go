@@ -4,7 +4,7 @@ import { TotalPrice } from "../../common/definition";
 import Paragraph from "../../common/typographies/Paragraph";
 
 const Feature = ({ total }: TotalPrice) => {
-  const price = PriceFormat(total, true);
+  const price = PriceFormat(typeof total === "number" ? total : 0, true);
 
   return (
     <div className="mt-8 flex justify-between">

@@ -10,12 +10,16 @@
 
 @layer base {
   body {
-    @apply font-redHatText bg-softPeach;
+    @apply bg-softPeach font-redHatText;
   }
 }
 
 @layer components {
   .add_cart {
-    @apply absolute left-1/2 top-[270px] flex w-3/4 -translate-x-1/2 cursor-pointer justify-center gap-2 rounded-full border-[1px] px-5 py-4 lg:top-[220px];
+    @apply absolute left-1/2 top-[270px] w-3/4 -translate-x-1/2 rounded-full border-[1px] px-5 py-4 lg:top-[220px];
+  }
+
+  .quantity {
+    @apply cursor-pointer self-center rounded-full border-[1px] fill-vistaWhite p-1 transition duration-300 ease-in-out hover:bg-vistaWhite hover:fill-tiaMaria;
   }
 }

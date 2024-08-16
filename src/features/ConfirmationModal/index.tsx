@@ -1,8 +1,10 @@
 import { ActionButton } from "../../common/definition";
 
+import Heading from "../../common/typographies/Heading";
 import IconCart from "../../common/icons/IconCart";
 import Order from "../Order";
 import OrderButton from "../Order/OrderButton";
+import Paragraph from "../../common/typographies/Paragraph";
 import Total from "../Total";
 
 const Feature = ({ onclick }: ActionButton) => {
@@ -12,13 +14,17 @@ const Feature = ({ onclick }: ActionButton) => {
       <div className="absolute left-1/2 top-1/3 h-fit w-5/6 -translate-x-1/2 rounded-2xl bg-vistaWhite px-5 py-7 md:w-[600px] md:px-12 md:py-8">
         <IconCart kind="confirm" />
 
-        <h2 className="mt-4 text-2xl font-bold text-graphite md:text-4xl">
-          Order Confirmed
-        </h2>
+        <Heading
+          kind="h2"
+          content="Order Confirmed"
+          css="mt-4 text-2xl font-bold text-graphite md:text-4xl"
+        />
 
-        <p className="mt-3 font-semibold text-beaver">
-          We hope you enjoy your food!
-        </p>
+        <Paragraph
+          kind="p"
+          content="We hope you enjoy your food!"
+          css="mt-3 font-semibold text-beaver"
+        />
 
         <section className="mt-8 rounded-3xl bg-softPeach px-5 py-7 md:px-10 md:py-7">
           <Order
