@@ -1,6 +1,6 @@
-# Sweet to go 🍦
+# Sweet to Go 🍦
 
-[Lien Figma](https://www.figma.com/design/lt1WV8RAE38qCtYHQbEUIN/ecommerce-redux?node-id=0-1&t=1jCRFYWw7wDQs935-0)
+Welcome to **Sweet to Go**, an elegant and user-friendly web application designed to showcase and sell delicious desserts. Whether you're craving a classic tiramisu, a vibrant macaron mix, or a rich red velvet cake, our store has something to satisfy your sweet tooth.
 
 <p align="center">
   <a href="https://skillicons.dev">
@@ -8,7 +8,7 @@
   </a>
 </p>
 
-Welcome to **Dessert Shop**, an elegant and user-friendly web application designed to showcase and sell delicious desserts. Whether you're craving a classic tiramisu, a vibrant macaron mix, or a rich red velvet cake, our store has something to satisfy your sweet tooth.
+[Lien Figma](https://www.figma.com/design/lt1WV8RAE38qCtYHQbEUIN/ecommerce-redux?node-id=0-1&t=1jCRFYWw7wDQs935-0)
 
 <p align="center">
     <img src="public/assets/img/readme.webp" width="60%" alt="Sweet To Go">
