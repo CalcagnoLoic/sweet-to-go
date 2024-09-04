@@ -15,7 +15,7 @@ const Page = () => {
         css="text-5xl font-bold text-graphite"
       />
 
-      <div className="flex flex-col gap-20 lg:gap-32 lg:flex-row">
+      <div className="flex flex-col gap-20 xl:gap-32 lg:flex-row">
         <GridLayout>
           {dessertsList.map((dessert: Dessert) => (
             <Card dessertProps={dessert} />
