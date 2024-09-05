@@ -1,7 +1,7 @@
 import { PriceFormat } from "../../common/utils";
 import { TotalPrice } from "../../common/definition";
 
-import Paragraph from "../../common/typographies/Paragraph";
+import Paragraph from "@typographies/Paragraph";
 
 const Feature = ({ total }: TotalPrice) => {
   const price = PriceFormat(typeof total === "number" ? total : 0, true);

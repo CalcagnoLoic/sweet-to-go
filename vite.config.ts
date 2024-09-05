@@ -6,6 +6,7 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
   resolve: {
+    //créer un alias pour le dossier utils
     alias: {
       "@components": path.resolve(__dirname, "./src/common/components"),
       "@data": path.resolve(__dirname, "./src/common/data"),
