@@ -16,7 +16,7 @@
 
 @layer components {
   .add_cart {
-    @apply absolute left-1/2 top-[270px] w-5/6 -translate-x-1/2 rounded-full border-[1px] px-5 py-4 lg:top-[220px];
+    @apply absolute left-1/2 top-[13rem] w-5/6 -translate-x-1/2 rounded-full border-[1px] px-5 py-4 lg:top-[220px];
   }
 
   .quantity {
