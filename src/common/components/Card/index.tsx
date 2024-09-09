@@ -15,7 +15,7 @@ const Component = ({ dessertProps }: CardProps) => {
   };
 
   return (
-    <div key={dessertProps.dessertID} className="relative">
+    <div key={dessertProps.dessertID} className="relative block mx-auto md:mx-0">
       <Image
         src={dessertProps.dessertIllustration}
         content={dessertProps.dessertName}
@@ -27,17 +27,17 @@ const Component = ({ dessertProps }: CardProps) => {
       <Paragraph
         kind="p"
         content={dessertProps.dessertCategory}
-        css="mt-10 text-pharlap"
+        css="mt-10 text-pharlap text-center lg:text-start"
       />
       <Paragraph
         kind="p"
         content={dessertProps.dessertName}
-        css="mt-1 font-semibold text-graphite"
+        css="mt-1 font-semibold text-graphite text-center lg:text-start"
       />
       <Paragraph
         kind="p"
         content={`$${price}`}
-        css="mt-2 font-semibold text-tiaMaria"
+        css="mt-2 font-semibold text-tiaMaria text-center lg:text-start"
       />
 
       <div
